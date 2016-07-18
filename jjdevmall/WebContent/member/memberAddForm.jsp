@@ -33,7 +33,7 @@
 				$('#nameHelper').text('');
 				$('#genderHelper').text('성별을 체크해주세요.');
 				
-			}else if($('#memberAge').val() == '' || !(isNaN($('#memberAge')))){
+			}else if($('#memberAge').val() == '' || isNaN($('#memberAge').val())){
 				
 				$('#idHelper').text('');
 				$('#pwHelper').text('');
